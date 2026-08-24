@@ -1,0 +1,3 @@
+Algoritmo descuento
+	
+FinAlgoritmo
