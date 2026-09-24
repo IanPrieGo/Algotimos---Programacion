@@ -9,7 +9,6 @@ function test(){
     echo "Only Run"
     ./$1.exe
     fi
-
     
 }
 
