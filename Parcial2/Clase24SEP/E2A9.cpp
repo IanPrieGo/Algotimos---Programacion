@@ -12,7 +12,7 @@
 // 25 años o más y menos de 30 años	35% del salario básico
 // 30 años o más	50% del salario básico
 
-
+// Ian Prieto Gomez
 #include <iostream>
 
 

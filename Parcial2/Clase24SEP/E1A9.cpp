@@ -1,7 +1,7 @@
 #include <iostream>
 
 
-
+// Ian Prieto Gomez
 int main(){
 
     float input1 = 0.0, input2 = 0.0, res = 0.0;
