@@ -1,4 +1,5 @@
 # Ian Prieto Gomez
+# Apunte 1
 #
 # if - else
 
@@ -9,5 +10,5 @@ if edad < 18:
     print("Ve a tomar tu ChocoMilk")
 else:
     print("Eres Mayor de Edad")
-    print("Ya puedes pagar Impuestos")
+    print("Ya puedes pagar I|mpuestos")
 
