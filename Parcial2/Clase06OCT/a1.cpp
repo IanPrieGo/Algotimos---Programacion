@@ -1,4 +1,4 @@
-//Ian Prieto Gomez
+//Ian Prieto Gomez / Apunte 1
 
 #include <iostream>
 #include <iomanip>

@@ -1,3 +1,5 @@
+// Ian Prieto Gomez / Apuntes 2
+
 #include <iostream>
 #include <iomanip>
 #include <cmath>
