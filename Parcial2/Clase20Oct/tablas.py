@@ -19,7 +19,22 @@ Encabezados=[
     "Lenguaje", "Nombre", "Tamaño", "Contiene Solo un Tipo"
 ]
 
-Contenidos[
+Contenidos=[
     ["C++", "Listas", "Dinamico", "Si"],
     ["Python", "Arreglos", "Finito", "No"]
 ]
+
+
+columnWidths=[]
+
+
+largo=Encabezados[0]
+
+for elem in Contenidos:
+    if len(largo) < len(elem[0]):
+        largo=elem[0]
+       
+print(largo)
+    
+    
+
