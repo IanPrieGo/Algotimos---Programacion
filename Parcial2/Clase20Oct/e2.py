@@ -27,5 +27,4 @@ for i in range(len(userList)):
     userList[i]=opposite
     userList[len(userList)-i-1]=current
     
-    
 print(userList)
