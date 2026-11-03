@@ -1,10 +1,10 @@
-#include <iostream>
-
+// Ian Prieto Gomez
 // Funciones
 // Permite dividir un programa en partes, haciendo mas comprensible el programa
 // 1. Con/Sin Parametros
 // 2. Con/Sin valor de Retorno
 
+#include <iostream>
 
 //Definir Funciones
 void fun1();
