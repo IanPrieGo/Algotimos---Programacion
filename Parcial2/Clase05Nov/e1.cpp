@@ -3,7 +3,6 @@
 // Calcula el area de: Circulo, Cuadrado, Rectangulo, Triangulo, y Trapecio
 
 #include <iostream>
-#include <string>
 
 int input;
 
