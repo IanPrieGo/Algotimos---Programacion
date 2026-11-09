@@ -4,14 +4,17 @@ a = 0
 b = 0
 usInp = 0
 
-def leer(men, menu):
-    usInp = int(input(men)) - 1
-    menu[usInp][1]()
-    
 
-def lectura():
+def asignarAB():
+    global a, b
     a = int(input("Define \"a\": "))
     b = int(input("Define \"b\": "))
+
+    
+def leer(men, menu):
+    usInp = int(input(men)) - 1
+    asignarAB()
+    menu[usInp][1]()
     
 def suma():
     print(f"{a} + {b} = {a+b}")
@@ -23,7 +26,10 @@ def mult():
     print(f"{a} x {b} = {a*b}")
 
 def div():
-    print(f"{a} ÷ {b} = {a/b}")
+    if a == 0 or b == 0:
+        print("Error. Division entre 0")
+    else: 
+        print(f"{a} ÷ {b} = {a/b}")
 
 
 arit=[
@@ -44,4 +50,3 @@ def menu(titulo, opciones):
 
 # MAIN
 menu("Operaciones", arit)
-
