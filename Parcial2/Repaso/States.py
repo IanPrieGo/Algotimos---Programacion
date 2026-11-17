@@ -1,0 +1,3 @@
+MENU = 0
+EXPLORANDO = 1
+SALIR= -1
